@@ -1,0 +1,35 @@
+<!-- Em front-end sempre sempre importar o java script antes do fechamento do body para evitar travamentos no site -->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Agenda de Conatos</title>
+<link rel="icon" href="Imagens/favicon.png">
+<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<h1>Criar Novo Contato</h1>
+	<form name="frmcontato" action="insert">
+		<table>
+			<!-- tr para linhas e td para colunas -->
+			<tr>
+				<!-- td de table data -->
+				<!-- placeholde Permite a inserção de dados | é oque sera exibido antes da inserção de dados -->
+				<td><input class="Caixa1" type="text" name="nome" placeholder="Nome"></td>
+			</tr>
+			<tr>
+				<td><input class="Caixa2" type="text" name="fone" placeholder="Fone"></td>
+			</tr>
+			<tr>
+				<td><input class="Caixa1" type="text" name="email" placeholder="Email (Opcional)"></td>
+			</tr>
+		</table>
+		<input type="submit" value="Adicionar" class="botao1" onclick="validar()">
+		
+	</form>
+	
+	<script type="text/javascript" src="scripts/validacao.js"></script>
+</body>
+</html>

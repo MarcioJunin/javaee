@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+	font-family: 'Open sans', 'sans-serif';
+	font-size: 1em;
+	font-weight: 400;
+	background-color: #FFFFFF;
+	
+}
+
+h1{
+	color: #0A9CC1;
+	font-size: 3em;
+}
+
+header{
+	color: #0A9CC1;	
+}
+
+.botao1{
+	text-decoration: none;
+	background-color: #0A9CC1;
+	padding: 5px 10px 5px 10px;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 15px; 
+	border: 0;
+	cursor: pointer;
+}
+
+.botao2 {
+		text-decoration: none;
+	background-color: #ff0000;
+	padding: 5px 10px 5px 10px;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 15px; 
+	border: 0;
+	cursor: pointer;
+}
+
+.Caixa1{
+	width:320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #0A9CC1;
+	border-radius: 15px;
+}
+.Caixa2{
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #0A9CC1;
+	border-radius: 15px;
+}
+
+#Caixa3{
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0000;
+	border-radius: 15px;
+}
+
+#tabela {
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+#tabela th {
+	
+
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: Left;
+	background-color: #0A9CC1;
+	color: #fff;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+
